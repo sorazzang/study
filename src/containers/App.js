@@ -4,6 +4,7 @@ import CounterContainer from '../containers/CounterContainer';
 
 class App extends Component{
     render(){
+        console.log(this.props);
         return(
             <div>
                 <CounterContainer>
